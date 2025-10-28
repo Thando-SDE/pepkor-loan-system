@@ -1,0 +1,99 @@
+/**
+ * LOAN APPLICATION STYLES - THE FORM'S APPEARANCE
+ * Makes the loan application look professional and user-friendly
+ */
+
+/* Main container for the entire loan application */
+.loan-application {
+  max-width: 600px;           /* Don't get too wide on large screens */
+  margin: 0 auto;             /* Center the form on the page */
+  padding: 20px;              /* Comfortable spacing inside */
+}
+
+/* Form heading */
+.loan-application h2 {
+  color: #2c3e50;            /* Dark blue to match header */
+  text-align: center;         /* Center the title */
+  margin-bottom: 2rem;        /* Space below title */
+  font-size: 1.8rem;          /* Prominent but not too large */
+}
+
+/* Each input field group */
+.form-group {
+  margin-bottom: 15px;        /* Space between form fields */
+}
+
+/* Labels for input fields */
+label {
+  display: block;             /* Make labels sit above inputs */
+  margin-bottom: 5px;         /* Space between label and input */
+  font-weight: bold;          /* Make labels stand out */
+  color: #2c3e50;            /* Dark blue for professionalism */
+}
+
+/* Input fields and dropdowns */
+input, select {
+  width: 100%;                /* Full width of container */
+  padding: 8px;               /* Comfortable typing space */
+  border: 1px solid #ddd;     /* Subtle border */
+  border-radius: 4px;         /* Slightly rounded corners */
+  font-size: 1rem;            /* Comfortable reading size */
+}
+
+/* Two-column layout for related fields */
+.form-row {
+  display: grid;              /* Modern CSS grid layout */
+  grid-template-columns: 1fr 1fr;  /* Two equal columns */
+  gap: 15px;                  /* Space between columns */
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;         /* Comfortable button size */
+  margin-right: 10px;         /* Space between buttons */
+  background-color: #007bff;  /* Professional blue */
+  color: white;               /* White text */
+  border: none;               /* Remove default border */
+  border-radius: 4px;         /* Rounded corners */
+  cursor: pointer;            /* Show hand cursor on hover */
+  font-size: 1rem;            /* Readable text size */
+}
+
+/* Disabled button (when loading) */
+button:disabled {
+  background-color: #6c757d;  /* Gray when disabled */
+  cursor: not-allowed;        /* Show not allowed cursor */
+}
+
+/* Error message styling */
+.error {
+  color: #dc3545;            /* Red color for errors */
+  font-size: 0.875em;        /* Smaller text for errors */
+  margin-top: 5px;           /* Space above error message */
+}
+
+/* Loan decision result box */
+.decision-result {
+  margin-top: 20px;          /* Space above decision */
+  padding: 15px;             /* Comfortable internal spacing */
+  border-radius: 4px;        /* Rounded corners */
+}
+
+/* Approved loan styling */
+.approved {
+  background-color: #d4edda;  /* Light green background */
+  border: 1px solid #c3e6cb;  /* Green border */
+  color: #155724;            /* Dark green text */
+}
+
+/* Denied loan styling */
+.denied {
+  background-color: #f8d7da;  /* Light red background */
+  border: 1px solid #f5c6cb;  /* Red border */
+  color: #721c24;            /* Dark red text */
+}
+
+/* Dropdown styling */
+.form-select {
+  cursor: pointer;           /* Show hand cursor for dropdowns */
+}
