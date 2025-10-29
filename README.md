@@ -38,12 +38,11 @@ src/
 ├── app.component.ts # Root component
 └── app.config.ts # Application configuration
 
-text
-
 ## 👨‍💻 Developer
 
 **Thando Mjacu**  
 ALX Africa Backend Development | Mastercard Foundation Scholar  
+📧 ThandoMjacu@gmail.com  
 [Live Demo](https://thando-loan-system.netlify.app/) | [GitHub Repository](https://github.com/Thando-SDE/pepkor-loan-system)
 
 ## 🚀 Getting Started
