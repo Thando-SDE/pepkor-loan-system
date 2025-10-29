@@ -5,7 +5,7 @@ import { routes } from './app.routes';
 
 /**
  * APPLICATION CONFIGURATION - THE SETUP INSTRUCTIONS
- * Tells Angular how to run your loan system
+ * Tells Angular how to run the loan system
  * Like reading the manual before using a complex machine
  */
 export const appConfig: ApplicationConfig = {

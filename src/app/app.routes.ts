@@ -2,7 +2,7 @@ import { Routes } from '@angular/router';
 
 /**
  * APPLICATION ROUTES - THE ROAD MAP
- * Defines all the pages in your loan system
+ * Defines all the pages in the loan system
  * Currently only one page: the loan application
  */
 export const routes: Routes = [

@@ -1,36 +1,46 @@
+/**
+ * MAIN APPLICATION STYLES - THE BANK'S DECOR AND DESIGN
+ * This makes the loan system look professional and clean
+ */
+
+/* The entire app container - makes sure it fills the screen */
 .app-container {
-  min-height: 100vh;
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
+  min-height: 100vh;          /* Always at least full screen height */
+  font-family: Arial, sans-serif; /* Clean, professional font */
+  display: flex;              /* Modern layout technique */
+  flex-direction: column;     /* Stack header, main, footer vertically */
 }
 
+/* Bank header styling - dark blue professional look */
 header {
-  background-color: #2c3e50;
-  color: white;
-  padding: 1rem 2rem;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #2c3e50;  /* Dark blue color - professional */
+  color: white;               /* White text on dark background */
+  padding: 1rem 2rem;         /* Space inside the header */
+  text-align: center;         /* Center the bank name */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
+/* Bank name in header */
 header h1 {
-  margin: 0;
-  font-size: 2rem;
+  margin: 0;                  /* Remove default spacing */
+  font-size: 2rem;            /* Large, readable text */
 }
 
+/* Main content area - where the loan form appears */
 main {
-  flex: 1;
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 100%;
-  box-sizing: border-box;
+  flex: 1;                    /* Takes up all available space */
+  padding: 2rem;              /* Comfortable spacing around content */
+  max-width: 1200px;          /* Don't get too wide on big screens */
+  margin: 0 auto;             /* Center the content */
+  width: 100%;                /* Full width but limited by max-width */
+  box-sizing: border-box;     /* Include padding in width calculation */
 }
 
+/* Footer styling - matches header */
 footer {
-  background-color: #34495e;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-  margin-top: auto;
+  background-color: #34495e;  /* Slightly lighter blue than header */
+  color: white;               /* White text */
+  padding: 1rem;              /* Comfortable spacing */
+  text-align: center;         /* Center the copyright text */
+  margin-top: auto;           /* Push to bottom of screen */
 }

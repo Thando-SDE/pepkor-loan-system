@@ -5,7 +5,7 @@ import { LoanApiService, LoanApplication, CreditDecision } from '../../services/
 
 /**
  * LOAN APPLICATION COMPONENT - THE BANK'S FRONT DESK
- * This is where users interact with your loan system
+ * This is where users interact with the loan system
  * Contains the form, buttons, and displays loan decisions
  */
 @Component({
